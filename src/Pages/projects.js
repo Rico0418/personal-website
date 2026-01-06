@@ -5,8 +5,8 @@ export const projects = [
       'A lightweight serverless web application that allows users to submit a form and automatically receive a confirmation email.',
     tech: ['React', 'AWS S3', 'AWS Lambda', 'AWS SES'],
     images: [
-      '/personal-website/assets/email-submission/img1.png',
-      '/personal-website/assets/email-submission/img2.png'
+      `${import.meta.env.BASE_URL}assets/email-submission/img1.png`,
+      `${import.meta.env.BASE_URL}personal-website/assets/email-submission/img2.png`
     ]
   },
   {
@@ -24,15 +24,15 @@ export const projects = [
     ],
     github: 'https://github.com/Rico0418/Dmango_Project',
     images: [
-      '/personal-website/assets/dmango/img1.png',
-      '/personal-website/assets/dmango/img2.png',
-      '/personal-website/assets/dmango/img3.png',
-      '/personal-website/assets/dmango/img4.png',
-      '/personal-website/assets/dmango/img5.png',
-      '/personal-website/assets/dmango/img6.png',
-      '/personal-website/assets/dmango/img7.png',
-      '/personal-website/assets/dmango/img8.png',
-      '/personal-website/assets/dmango/img9.png',
+      `${import.meta.env.BASE_URL}assets/dmango/img1.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img2.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img3.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img4.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img5.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img6.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img7.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img8.png`,
+      `${import.meta.env.BASE_URL}assets/dmango/img9.png`,
     ]
   },
   {
@@ -49,10 +49,10 @@ export const projects = [
     ],
     github: null,
     images: [
-      '/personal-website/assets/document-management/img1.png',
-      '/personal-website/assets/document-management/img2.png',
-      '/personal-website/assets/document-management/img3.png',
-      '/personal-website/assets/document-management/img4.png'
+      `${import.meta.env.BASE_URL}assets/document-management/img1.png`,
+      `${import.meta.env.BASE_URL}assets/document-management/img2.png`,
+      `${import.meta.env.BASE_URL}assets/document-management/img3.png`,
+      `${import.meta.env.BASE_URL}assets/document-management/img4.png`
     ]
   },
   {
